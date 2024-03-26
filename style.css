@@ -26,10 +26,7 @@ html, body
 }
 .nav
 {
-
     height: 13vh;
-    
-    
 }
 #logo
 {
@@ -92,4 +89,46 @@ hr
 {
     background-color: red;
     padding:7px 10px;
+}
+.motion
+{
+    height:100vh;
+    width: 100%;
+    background-color:black;
+    margin-top: 0;
+    transform: translate(0,-20.5rem);
+    text-align: center;
+    justify-content:start;
+}
+.motion-text
+{
+    color: white;
+    transform: translate(-3rem,8rem);
+    font-weight: bold;
+}
+.tv >img
+{
+    transform: translate(0,-16rem);
+    height:70vh;
+    object-fit: cover;
+}
+.tv >video
+{
+    transform: translate(0,30%);
+    height:18rem;
+    width: 24rem;
+    padding: 0;
+    margin-top: 0;
+    object-fit: cover;
+}
+#motion-h2
+{
+    font-size:3rem;
+}
+#motion-p
+{
+    font-size:30px;
+    font-weight: 100;
+    text-align:start;
+    transform: translate(4rem,8rem)
 }
