@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    overflow-x:hidden;
+    height: 100%;
+}
+/* .Main
+{
+    background: url("netflix-web.jpg");
+    height: 140vh;
+    filter: brightness(90%);
+} */
+
+#images
+{
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    height: 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.nav
+{
+
+    height: 13vh;
+    
+    
+}
+#logo
+{
+    height: 15vh;
+    position: absolute;
+    left:10rem;
+    top:1rem;
+}
+#SignIn
+{
+    text-align: center;
+    height: 7vh;
+    position: absolute;
+    right:10rem;
+    top:1rem;
+    margin-top: 1rem;
+    background-color: red;
+    padding: 3px 15px;
+}
+.hero
+{
+    height: 50%;
+    position: relative;
+    top:1rem;
+    transform: translate(0%,-38rem);
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+hr
+{
+    margin-top:30px;
+    color: grey;
+    border: solid 3px thick;
+}
+.hero>h1
+{
+    font-size: 3rem;
+    font-weight:bold;
+}
+.hero>p
+{
+    font-size: 2vw;
+}
+.email
+{
+    border: none;
+    padding: 7px 10px;
+    border-radius: 2px;
+    color: white;
+}
+#Email
+{
+    padding:7px 7rem;
+    background-color:#141010;
+    margin-right: 10px;
+}
+.email
+{
+    background-color: red;
+    padding:7px 10px;
+}
